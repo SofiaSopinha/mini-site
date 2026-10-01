@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#container{
+    max-width: 600px;
+    border: 1px blue solid;
+    margin: 0 auto;
+}
+
+nav ul{
+    background-color: rgb(156, 59, 14);
+    text-align: center;
+}
+nav ul li{
+    display:inline-block;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    padding: 20px;
+    font-size:large;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+}
